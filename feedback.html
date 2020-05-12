@@ -1,0 +1,79 @@
+<html>
+<head>
+	
+	<title>my website</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			background: url(aaa.jpg);
+			background-size: cover;
+			background-position: center;
+			font-family: san-sherif;
+		}
+		.title
+		{
+			margin-top: 100px;
+			color: #000;
+			text-transform: uppercase;
+			transition: all 4s ease-in-out;
+		}
+        .title h1{
+        	font-size: 32px;
+        	line-height: 10px;
+        }
+        form{
+        	margin-top: 50px;
+        	transition: all 4s ease-in-out;
+        }
+        .form-control{
+        	width: 600px;
+        	background:transparent;
+        	border-right: none;
+        	outline: none;
+        	border-bottom: 1px solid gray;
+        	color: #000;
+        	font-size: 18px;
+        	margin-bottom: 16px;
+        }
+        input{
+        	height: 45px;
+        }
+        form .submit{
+        	background:#ff5722;
+        	border-color: transparent;
+        	color: #fff;
+        	font-size: 20px;
+        	font-weight: bold;
+        	letter-spacing: 2px;
+        	height: 50px;
+        }
+        form .submit:hover{
+        	background-color: #f44326;
+        	cursor: pointer;
+        }
+
+
+
+	</style>
+</head>
+
+<body>	
+	<div class="title">
+   <h1>FEEDBACK FORM AND MY RESUME</h1></div>
+   <div>
+   	<form action="mailto:swathiarumugam309@gmail.com" method="post" enctype="text/plain">
+   
+   <input type="text" name="name" placeholder="enter your name" class="form-control" ><br>
+   <input type="email" name="email" placeholder="enter your email ID" class="form-control"><br>
+   <textarea name="message" class="form-control" placeholder="message" row="4"></textarea><br>
+   <input type="submit" class="form-control submit" value="SEND FEEDBACK"><br>
+</div>
+<button class="form-control submit">
+<a href="resume.pdf" download>DOWNLOAD RESUME</a>
+</button>
+</form>
+</body>
+
+</html>
